@@ -3,7 +3,7 @@ class Solution:
         left=1
         right=max(piles)
         while left<right:
-            mid=left+(right-left)//2
+            mid=(right+left)//2
             total=0
 
             for pile in piles:
